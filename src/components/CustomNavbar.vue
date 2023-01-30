@@ -4,7 +4,7 @@
             <ul>
                 <li v-for="item in menu" :key="item.id" :class="item.active ? 'active' : ''"
                     @click="toggleClass(item.id)">
-                    <router-link :to="item.route">{{ item.name }}</router-link>
+                    <router-link  from = "/*" :to="item.route">{{ item.name }}</router-link>
                     <div class="underline"></div>
                 </li>
             </ul>
@@ -14,7 +14,9 @@
     </v-app-bar>
 </template>
 <script setup lang="ts">
-import { ref, type Ref } from 'vue';
+import router from '@/router';
+import { onMounted, ref, type Ref } from 'vue';
+router:router
 interface RouterMenu {
     id: number;
     name: string;
@@ -30,6 +32,7 @@ const toggleClass = (id: number) => {
     menu.value.find(a => a.id == id)!.active = !menu.value.find(a => a.id == id)!.active;
 
 }
+
 </script>
 <style >
 .bg-light {

@@ -27,11 +27,11 @@
 </template>
 
 <style>
-@media (min-width: 300px) {
+/* @media (min-width: 300px) {
    .about {
-      min-height: 100vh;
+      min-height: 50vh;
       }
-}
+} */
 
 
 .color {
