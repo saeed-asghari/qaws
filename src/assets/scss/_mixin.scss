@@ -1,0 +1,14 @@
+$base-font-size: 16px;
+@mixin responsive-font-size($font-size) {
+
+    $result-division : calc($font-size / $base-font-size);
+    font-size: calc($result-division * 1rem);
+
+    @media screen and (min-width: 768px) {
+        font-size: calc($result-division * 1.2rem);
+    }
+
+    @media screen and (min-width: 1024px) {
+        font-size: calc($result-division * 1.5rem);
+    }
+}

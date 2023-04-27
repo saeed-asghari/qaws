@@ -5,10 +5,11 @@
             </span>
         </template>
 
-        <v-app-bar-title class="v-app-bar">Unit 405, 4rd floor, alkhaimah building, allthihad street, 4b street, Dubai UAE </v-app-bar-title>
+        <v-app-bar-title class="v-app-bar">Deira ,baniyas st, twin towers 22d floor, inox bussines center ,unit no:9 </v-app-bar-title>
 
         <template v-slot:append>
             <v-btn color="green" flat class="mdi mdi-twitter"></v-btn>
+            <v-btn color="green" flat class="mdi mdi-whatsapp"></v-btn>
             <v-btn color="green" flat class="mdi mdi-facebook"></v-btn>
         </template>
     </v-app-bar>

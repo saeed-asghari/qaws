@@ -1,6 +1,6 @@
 
 <template>
-   <div class="home">
+   <div class="home mx-1">
       <div class="container">
          <img class="container__image" src="@/assets/cargo-ship.jpg">
          <div class="container__text">

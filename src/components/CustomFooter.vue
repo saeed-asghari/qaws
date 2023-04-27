@@ -56,9 +56,10 @@ let CurrentYear: Ref<string> = ref(new Date().getFullYear().toString());
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  position: fixed;
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  bottom: 0%;
+  left: 0;
 }
 
 .footer-contaner a {
