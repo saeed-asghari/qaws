@@ -14,7 +14,7 @@
         <br />
         <br />
         <div class="pa-5 py-1 font-size">
-          <div><span class="color">Phone: </span><a style="color:black" href="tel:+971-5-26169172"> 971-5-26169172</a>
+          <div><span class="color">Phone: </span><a style="color:black" href="tel:+971-4-3484858"> 971-4-3484858</a>
           </div>&nbsp;
           <div><span class="color">Whatsapp: </span><a style="color:black" href="tel:+971-52-6169172"> 971 52 616 9172</a>
           </div>&nbsp;
